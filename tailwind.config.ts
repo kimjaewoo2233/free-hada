@@ -13,7 +13,7 @@ const config: Config = {
           blue: "#2A43C4",
           yellow: "#2A43C4"
         },  
-        neutral: { //네츄럴 컬러
+        netural: { //네츄럴 컬러
           100: "#FFFFFF",
           98: "#F6F7F8",
           80: "#D3D5DA",
@@ -56,6 +56,6 @@ const config: Config = {
       }
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-debug-screens')],
 };
 export default config;

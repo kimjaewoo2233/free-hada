@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={clsx(
         inter.className, 
-        "min-h-screen w-full", 
+        "min-h-screen w-full flex justify-center", 
         { "debug-screens": process.env.NODE_ENV === "development"})}
       >
         {children}
